@@ -44,8 +44,8 @@ public class BarrisController {
                     Barri barri = new Barri();
                     barri.setLinea(i);
                     barri.setBarri(Integer.parseInt(regLine[0]));
-                    barri.setDistricte(Integer.parseInt(regLine[0]));
-                    barri.setNombre(regLine[1]);
+                    barri.setDistricte(Integer.parseInt(regLine[1]));
+                    barri.setNombre(regLine[2]);
                     // añade el objeto a la lista
                     retorno.addBarri(barri);
                 } 

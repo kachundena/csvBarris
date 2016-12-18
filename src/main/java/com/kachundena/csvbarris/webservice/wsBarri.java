@@ -99,7 +99,7 @@ public class wsBarri {
     
     
         @GET
-    @Path("/distrito/{distrito}")
+    @Path("/districte/{distrito}")
     @ApiOperation(
             value = "retornar lista barrios de un distrito",
             notes = "Devuelve los barrios que hay en un distrito"
